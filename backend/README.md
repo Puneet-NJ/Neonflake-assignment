@@ -21,7 +21,7 @@ image and video
 
 ## /showData
 
-Display the thumbnails along with Title. Fetch the image from Cloudinary and display.
+Display the thumbnails along with Title.
 
 ## /video
 
