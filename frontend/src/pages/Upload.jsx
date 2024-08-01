@@ -33,7 +33,7 @@ const Upload = () => {
 				const imageBase64String = reader.result;
 
 				axios({
-					url: "http://localhost:3001/api/v1/uploadData",
+					url: "https://neonflake-assignment-be-0.onrender.com/api/v1/uploadData",
 					method: "POST",
 					data: {
 						title,

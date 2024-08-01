@@ -9,7 +9,7 @@ const Dashboard = () => {
 		const intervalId = setInterval(() => {
 			axios({
 				method: "GET",
-				url: "http://localhost:3001/api/v1/getData",
+				url: "https://neonflake-assignment-be-0.onrender.com/api/v1/getData",
 			}).then((response) => {
 				setData(response.data.data);
 			});
@@ -17,7 +17,7 @@ const Dashboard = () => {
 
 		axios({
 			method: "GET",
-			url: "http://localhost:3001/api/v1/getData",
+			url: "https://neonflake-assignment-be-0.onrender.com/api/v1/getData",
 		}).then((response) => {
 			setData(response.data.data);
 		});

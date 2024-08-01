@@ -8,7 +8,7 @@ const Video = () => {
 
 	useEffect(() => {
 		axios({
-			url: `http://localhost:3001/api/v1/getVideo/${videoId}`,
+			url: `https://neonflake-assignment-be-0.onrender.com/api/v1/getVideo/${videoId}`,
 			method: "GET",
 		}).then((response) => {
 			setVideoUrl(response.data.videoUrl);
